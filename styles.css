@@ -1,0 +1,64 @@
+html {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  background-color: black;
+  margin: 0px
+
+}
+
+
+.navbox {
+  display: inline-block;
+  background-color: #D7DBDD;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+
+}
+
+.navcontainer {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: -25px;
+}
+
+#photonumber {
+  text-decoration: underline;
+
+}
+
+.photobanner {
+  background-color: #1ABC9C;
+  margin: 20px;
+}
+
+.photocontainer {
+  margin: -10px 20px;
+}
+
+.photo-box {
+  display: inline-block;
+}
+
+.photo-opt {
+  background-color: yellow;
+  margin-top: -15px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 1px;
+}
