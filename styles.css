@@ -18,6 +18,12 @@ header h1 {
 }
 
 
+.main-box {
+  margin-left: 5px;
+  text-align: center;
+}
+
+
 .navbox {
   display: inline-block;
   background-color: #D7DBDD;
@@ -41,24 +47,56 @@ header h1 {
 .photobanner {
   background-color: #1ABC9C;
   margin: 20px;
+  position: relative;
+  width: 660px;
+  text-align: left;
+  background: turqouise;
+  top: 6px;
+  padding-top: 12px;
+  bottom: 184px;
+  padding-bottom: 12px;
+}
 }
 
 .photocontainer {
-  margin: -10px 20px;
+  margin: 30px 20px -10px;
+
 }
 
-.photo-box {
+.photo-box-1 {
+  display: inline-block;
+}
+.photo-box-2 {
+  display: inline-block;
+}
+.photo-box-3 {
+  display: inline-block;
+}
+.photo-box-4 {
+  display: inline-block;
+}
+.photo-box-5 {
   display: inline-block;
 }
 
+.photo-box-6 {
+  display: inline-block;
+}
 .photo-opt {
   background-color: yellow;
   margin-top: -15px;
+  text-align: center;
 }
 
 footer {
   text-align: center;
   color: white;
   background-color: black;
-  padding: 1px;
+  position: absolute;
+  height: 62px;
+  font-family: -webkit-pictograph;
+  right: -5px;
+  width: 732px;
+  margin: 4px;
+  padding: 5px;
 }
